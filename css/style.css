@@ -23,7 +23,8 @@ p {
     font-size: 20px;
 }
 
-/* Alterar a família da fonte de todo o site para Arial */
+/* Alterar a família e a posição da fonte de todo o site para Arial */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
+    text-align: center;
 }
