@@ -1,30 +1,25 @@
-/* Alterar a cor dos filmes que estreiam hoje para darkred */
-p[style*="color: darkred"] {
-    color: darkred;
-}
-
-/* Alterar a cor dos filmes que estreiam amanhã para darkblue */
-p[style*="color: darkblue"] {
-    color: darkblue;
-}
-
-/* Remover o sublinhado de todos os links do site */
 a {
     text-decoration: none;
 }
 
-/* Alterar a cor dos links dentro de h2 para seagreen */
+
 h2 a {
     color: seagreen;
 }
 
-/* Aumentar a fonte dos parágrafos para 20px */
+
 p {
     font-size: 20px;
 }
 
-/* Alterar a família e a posição da fonte de todo o site para Arial */
+
 body {
     font-family: Arial;
     text-align: center;
+}
+.filmeHoje{
+    color: darkred;
+}
+.filmeAmanha{
+    color: darkblue
 }
